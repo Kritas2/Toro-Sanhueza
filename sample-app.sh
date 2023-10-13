@@ -18,5 +18,5 @@ echo "CMD python /home/myapp/sample_app.py" >> tempdir/Dockerfile
 
 cd tempdir
 docker build -t sampleapp .
-docker run -t -d -p 8888:8888 --name samplerunning sampleapp
+docker run -t -d -p 8888:8888 --name samplerunningg sampleapp
 docker ps -a 
